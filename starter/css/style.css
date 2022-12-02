@@ -12,17 +12,16 @@ body {
 
 .nav {
   display:flex;
-  background-color: navy;
-  padding: 10px;
+  background-color: #000762;
+  padding: 30px;
 
 }
 
 .logo {
-background-color:blue;
-height: 50px;
+background-color: #66000000;
+height: 200px;
+margin: 0;
 background-image: url(../starter/images/Annatestlogo.png);
-background-position: center;
-: 50px;
 }
 
 .center {
