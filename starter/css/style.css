@@ -10,6 +10,19 @@ body {
   line-height: 1.5;
 }
 
+.nav {
+  display:flex;
+  background-color: aqua;
+  padding: 10px;
+
+}
+
+.name {
+background-color: aliceblue;
+height: 230px;
+background-image: url{"..../images/Anna test logo.png"}
+
+}
 .containerGrid {
 display: grid;
 grid-template-columns:  20% 20% 20% 20% 20%;
