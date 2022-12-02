@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: blue;
 }
 
 body {
@@ -9,6 +10,10 @@ body {
   line-height: 1.5;
 }
 
+
+.page-section {
+  color:black 
+}
 h1,
 h2,
 h3,
@@ -17,6 +22,7 @@ h5,
 h6 {
   margin: 0;
 }
+
 
 p {
   margin: 0;
