@@ -47,7 +47,12 @@ background-color: aqua;
 .page-section {
   color:black 
 }
-h1,
+h1 {
+  background-color: #000762
+  color: beige;
+  margin: 0;
+}
+
 h2,
 h3,
 h4,
@@ -56,8 +61,14 @@ h6 {
   margin: 0;
 }
 
+#navbar {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 5%;
+}
 .work1 {
-
+background-image: url(../starter/images/02-portfolio-1.jpg);
+background-size: 200px;
 
 }
 
