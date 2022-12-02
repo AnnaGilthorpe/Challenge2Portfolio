@@ -21,7 +21,7 @@ body {
 background-color: #66000000;
 height: 200px;
 margin: 0;
-background-image: url(../starter/images/Annatestlogo.png);
+background-image: url(images/Annatestlogo.png);
 }
 
 .center {
@@ -67,7 +67,7 @@ h6 {
   margin: 0px 5%;
 }
 .work1 {
-background-image: url(../starter/images/02-portfolio-1.jpg);
+background-image: url(../images/02-portfolio-1.jpg);
 background-size: 200px;
 
 }
