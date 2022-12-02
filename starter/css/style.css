@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: blue;
+  background-color: beige;
 }
 
 body {
@@ -12,17 +12,27 @@ body {
 
 .nav {
   display:flex;
-  background-color: aqua;
+  background-color: navy;
   padding: 10px;
 
 }
 
-.name {
-background-color: aliceblue;
-height: 230px;
-background-image: url{"..../images/Anna test logo.png"}
-
+.logo {
+background-color:blue;
+height: 50px;
+background-image: url(../starter/images/Annatestlogo.png);
+background-position: center;
+: 50px;
 }
+
+.center {
+  width: 50%;
+}
+
+.center a {
+  color: yellow
+}
+
 .containerGrid {
 display: grid;
 grid-template-columns:  20% 20% 20% 20% 20%;
