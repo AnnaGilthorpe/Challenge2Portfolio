@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   background-color: beige;
+  padding: 20px;
 }
 
 body {
@@ -21,7 +22,7 @@ body {
 background-color: #66000000;
 height: 200px;
 margin: 0;
-background-image: url(/images/images/Annatestlogo.png);
+background-image: url(/images/Annatestlogo.png);
 }
 
 .center {
@@ -29,7 +30,7 @@ background-image: url(/images/images/Annatestlogo.png);
 }
 
 .center a {
-  color: yellow
+  color: yellow;
 }
 
 .containerGrid {
@@ -48,17 +49,25 @@ background-color: aqua;
   color:black 
 }
 h1 {
-  background-color: #000762
-  color: beige;
+  display: inline-block;
+  color: #000762
   margin: 0;
 }
 
+.nav h1 {
+  background-color: #000762;
+  display: inline-block;
+  color: beige;
+  margin: 0;
+
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
   margin: 0;
+  color: #000762;
 }
 
 #navbar {
@@ -67,30 +76,35 @@ h6 {
   margin: 0px 5%;
 }
 .work1 {
-background-image: url(../images/02-portfolio-1.jpg);
-background-size: 200px;
+background-image: url(/images/2.png);
+background-size: 100px;
 
 }
 
 
 .work2 {
+  background-image: url(/images/3.png);
+  background-size: 100px;
 
 
 
 }
 
 .work3 {
+  background-image: url(/images/4.png);
+  background-size: 100px;
 
 
 
 }
 .work4 {
-
+  background-image: url(/images/5.png);
+  background-size: 100px;
 }
 
 .work5 {
-
-
+ background-image: url(/images/6.png);
+ background-size: 100px;
 }
 p {
   margin: 0;
