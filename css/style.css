@@ -16,7 +16,6 @@ body {
   display: inline;
   flex-direction: row;
   background-color: #000762;
-  padding: 30px;
 
 }
 
@@ -24,37 +23,25 @@ body {
   display: flex;
   flex-direction: row;
   display: inline-block;
-  width: 25%;
-  font-weight: 500;
+  width: 30%;
+  font-weight: 100;
   background-color: #000762;
-  margin: 0 
+  margin: 0;
+  font-size: larger;
 }
 
 #navigation {
   display: flex;
   flex-direction: row;
   display: inline-flex;
-  width: 50%;
-  align-items: center;
+  width: 80%;
+  background-color: #000762;
   justify-content: space-evenly;
 }
 #navigation p a {
+  background-color: #000762;
   cursor: pointer;
   text-decoration: none;
-}
-
-.logo {
-background-color: #66000000;
-height: 200px;
-margin: 0;
-background-image: url(images/Annatestlogo.png);
-}
-
-.center {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .center a {
@@ -73,13 +60,20 @@ background-color: aqua;
 
 }
 
+.hero-banner {
+  background-image: url(image/logo banner.png);
+  padding: 20px;
+  display: left;
+}
 .page-section {
   color:black 
 }
 h1 {
   display: inline-block;
-  color: #000762
+ font-size: 30px;
+  color: beige;
   margin: 0;
+  background-color: #000762;
 }
 
 }
