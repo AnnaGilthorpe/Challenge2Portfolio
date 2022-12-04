@@ -11,22 +11,50 @@ body {
   line-height: 1.5;
 }
 
-.nav {
+#navbar {
   display:flex;
+  display: inline;
+  flex-direction: row;
   background-color: #000762;
   padding: 30px;
 
+}
+
+#navBar h1 {
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  width: 25%;
+  font-weight: 500;
+  background-color: #000762;
+  margin: 0 
+}
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  display: inline-flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navigation p a {
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .logo {
 background-color: #66000000;
 height: 200px;
 margin: 0;
-background-image: url(/images/Annatestlogo.png);
+background-image: url(images/Annatestlogo.png);
 }
 
 .center {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .center a {
@@ -38,9 +66,9 @@ display: grid;
 grid-template-columns:  20% 20% 20% 20% 20%;
 grid-auto-rows: 50% 50%;
 grid-template-areas: 
-"a b c"
-"d e e";
-gap: 10px
+"work1 work2 work3"
+"work4 work5 work5";
+gap: 10px;
 background-color: aqua;
 
 }
@@ -54,12 +82,6 @@ h1 {
   margin: 0;
 }
 
-.nav h1 {
-  background-color: #000762;
-  display: inline-block;
-  color: beige;
-  margin: 0;
-
 }
 h2,
 h3,
@@ -70,20 +92,24 @@ h6 {
   color: #000762;
 }
 
-#navbar {
+a {
   display: flex;
-  flex-direction: row;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: yellowgreen;
+  background-color: #000762;
   margin: 0px 5%;
 }
 .work1 {
-background-image: url(/images/2.png);
+background-image: url(images/2.png);
 background-size: 100px;
 
 }
 
 
 .work2 {
-  background-image: url(/images/3.png);
+  background-image: url(images/3.png);
   background-size: 100px;
 
 
@@ -91,19 +117,19 @@ background-size: 100px;
 }
 
 .work3 {
-  background-image: url(/images/4.png);
+  background-image: url(images/4.png);
   background-size: 100px;
 
 
 
 }
 .work4 {
-  background-image: url(/images/5.png);
+  background-image: url(images/5.png);
   background-size: 100px;
 }
 
 .work5 {
- background-image: url(/images/6.png);
+ background-image: url(images/6.png);
  background-size: 100px;
 }
 p {
