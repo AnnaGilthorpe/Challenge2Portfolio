@@ -46,16 +46,24 @@ body {
   color: yellow;
 }
 
-.containerGrid {
+#categorygrid {
 display: grid;
 grid-template-columns:  20% 20% 20% 20% 20%;
-grid-auto-rows: 50% 50%;
+grid-auto-rows: 0;
 grid-template-areas: 
 "work1 work2 work3"
 "work4 work5 work5";
 gap: 10px;
-background-color: aqua;
 
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  display: grid;
+  align-content: end;
 }
 
 .hero-banner {
@@ -99,14 +107,16 @@ h6 {
   margin: 0px 5%;
 }
 .work1 {
-background-image: url(images/2.png);
-background-size: 100px;
+  grid-area: work1;
+  background-image: url("images/2.png");
+  background-size: 100px;
 
 }
 
 
 .work2 {
-  background-image: url(images/3.png);
+  grid-area: work2;
+  background-image: url("images/3.png");
   background-size: 100px;
 
 
@@ -114,20 +124,23 @@ background-size: 100px;
 }
 
 .work3 {
-  background-image: url(/images/4.png);
+  grid-area: work3;
+  background-image: url("/images/4.png");
   background-size: 100px;
 
 
 
 }
 .work4 {
-  background-image: url(images/5.png);
+  grid-area: work4;
+  background-image: url("images/5.png");
   background-size: 100px;
 }
 
 .work5 {
- background-image: url(images/6.png);
- background-size: 100px;
+  grid-area: work5;
+  background-image: url("images/6.png");
+  background-size: 100px;
 }
 p {
   margin: 0;
