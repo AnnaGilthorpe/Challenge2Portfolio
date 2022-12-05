@@ -51,6 +51,19 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 200px;
   gap: 10px;
+  grid-template-areas: 
+  "work1 work2 work3"
+  "work4 work4 work3"
+  "work5 work5 work5";
+}
+
+.heading {
+  background-color: #000762;
+  padding: 15px;
+  height: 25px;
+  color: beige;
+  font-size: 18px;
+  border-bottom: 5px solid orange;
 }
 
 .work1 {
