@@ -31,8 +31,9 @@ nav {
   display: flex;
 }
 
-.nav-item p {
+.nav-item p a {
   display: inline-block;
+  background-color: #000762;
   padding: 10px 15px;
   color: white;
 }
