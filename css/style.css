@@ -1,7 +1,5 @@
 * {
-  box-sizing: border-box;
   background-color: beige;
-  padding: 20px;
 }
 
 body {
@@ -66,8 +64,13 @@ background-color: aqua;
   display: left;
 }
 .page-section {
-  color:black 
+  color:black; 
+  text-align: center;
+  border-bottom: 1px solid #000762;
+  width: 90%;
+  margin: 20px auto;
 }
+
 h1 {
   display: inline-block;
  font-size: 30px;
@@ -111,7 +114,7 @@ background-size: 100px;
 }
 
 .work3 {
-  background-image: url(images/4.png);
+  background-image: url(/images/4.png);
   background-size: 100px;
 
 
