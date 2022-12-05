@@ -89,7 +89,7 @@ h6 {
   color: #000762;
 }
 
-a {
+.navbar a {
   display: flex;
   display: inline-block;
   justify-content: center;
