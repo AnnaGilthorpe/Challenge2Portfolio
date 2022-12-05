@@ -46,31 +46,32 @@ body {
   color: yellow;
 }
 
-#categorygrid {
-display: grid;
-grid-template-columns:  20% 20% 20% 20% 20%;
-grid-auto-rows: 0;
-grid-template-areas: 
-"work1 work2 work3"
-"work4 work5 work5";
-gap: 10px;
-
-}
-
-.categoryGridArea {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 5px;
+.wrapper {
   display: grid;
-  align-content: end;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 10px;
 }
 
-.hero-banner {
-  background-image: url(image/logo banner.png);
-  padding: 20px;
-  display: left;
+.work1 {
+  background-image: url("/challenge2/images/2.png");
 }
+
+.work2 {
+  background-image: url("/challenge2/images/3.png");
+}
+.work3 {
+  background-image: url("/challenge2/images/4.png")
+}
+
+.work4 {
+  background-image: url("/challenge2/images/5.png");
+}
+
+.work5 {
+  background-image: url("/challenge2/images/6.png");
+}
+
 .page-section {
   color:black; 
   text-align: center;
@@ -106,42 +107,9 @@ h6 {
   background-color: #000762;
   margin: 0px 5%;
 }
-.work1 {
-  grid-area: work1;
-  background-image: url("images/2.png");
-  background-size: 100px;
-
-}
-
-
-.work2 {
-  grid-area: work2;
-  background-image: url("images/3.png");
-  background-size: 100px;
 
 
 
-}
-
-.work3 {
-  grid-area: work3;
-  background-image: url("/images/4.png");
-  background-size: 100px;
-
-
-
-}
-.work4 {
-  grid-area: work4;
-  background-image: url("images/5.png");
-  background-size: 100px;
-}
-
-.work5 {
-  grid-area: work5;
-  background-image: url("images/6.png");
-  background-size: 100px;
-}
 p {
   margin: 0;
 }
