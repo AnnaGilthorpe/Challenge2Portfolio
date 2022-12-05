@@ -48,40 +48,48 @@ body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 300px 300px 300px;
   gap: 10px;
   grid-template-areas: 
-  "work1 work2 work3"
-  "work4 work4 work3"
-  "work5 work5 work5";
+  "work1 work1 work1"
+  "work2 work3 work4"
+  "work5 work5 work4"
+ 
 }
 
 .heading {
   background-color: #000762;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
   padding: 15px;
   height: 25px;
   color: beige;
   font-size: 18px;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid goldenrod;
 }
 
 .work1 {
+  grid-area: work1;
   background-image: url("/challenge2/images/2.png");
 }
 
 .work2 {
+  grid-area: work2;
   background-image: url("/challenge2/images/3.png");
 }
 .work3 {
+  grid-area: work3;
   background-image: url("/challenge2/images/4.png")
 }
 
 .work4 {
+  grid-area: work4;
   background-image: url("/challenge2/images/5.png");
 }
 
 .work5 {
+  grid-area: work5;
   background-image: url("/challenge2/images/6.png");
 }
 
@@ -96,7 +104,7 @@ body {
 h1 {
   display: inline-block;
  font-size: 30px;
-  color: beige;
+  color: goldenrod;
   margin: 0;
   background-color: #000762;
 }
