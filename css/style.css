@@ -176,4 +176,38 @@ a:visited {
   color: white;
 }
 
-}
+
+@media only screen and (max-width: 60em) {
+ 
+
+  .wrapper {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+    "work1"
+    "work2"
+    "work3"
+    "work4"
+    "work5"
+    ;
+  }
+
+  @media only screen and (max-width: 50em) {
+
+  .wrapper {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+    "work1"
+    "work2"
+    "work3"
+    "work4"
+    "work5"
+    ;
+  }
+ .navbar {
+  display: none;
+ }
+
+
+ 
