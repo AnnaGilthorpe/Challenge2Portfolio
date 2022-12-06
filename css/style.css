@@ -31,7 +31,7 @@ nav {
   display: flex;
 }
 
-.nav-item p a {
+.nav-item p {
   display: inline-block;
   background-color: #000762;
   padding: 10px 15px;
@@ -80,26 +80,26 @@ img {
 
 .work1 {
   grid-area: work1;
-  background-image: url("/challenge2/images/2.png");
+  background-image: url("../images/2.png");
 }
 
 .work2 {
   grid-area: work2;
-  background-image: url("/challenge2/images/3.png");
+  background-image: url("../images/3.png");
 }
 .work3 {
   grid-area: work3;
-  background-image: url("/challenge2/images/4.png")
+  background-image: url("../images/4.png")
 }
 
 .work4 {
   grid-area: work4;
-  background-image: url("/challenge2/images/5.png");
+  background-image: url("../images/5.png");
 }
 
 .work5 {
   grid-area: work5;
-  background-image: url("/challenge2/images/6.png");
+  background-image: url("../images/6.png");
 }
 
 .page-section {
