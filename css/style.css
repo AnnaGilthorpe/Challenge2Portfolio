@@ -53,12 +53,9 @@ nav {
   margin-bottom: 30px;
 }
 
-.nav-item:hover {
-  background-color: white;
-}
 
 .nav-item:hover a {
-  color: #000762;
+  color: goldenrod;
 }
 
 .logo img {
@@ -147,4 +144,36 @@ h6 {
 footer {
   text-align: center;
 }
+a:visited { 
+  text-decoration: none; 
+  color: goldenrod; 
+ }
 
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+}
