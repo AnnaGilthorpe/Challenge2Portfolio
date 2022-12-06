@@ -25,3 +25,13 @@ Technologies used:- MAC Terminal, VS Code and Git Hub.
 
 <h2>Installation</h2>
 N/A
+
+\<h2>Usage</h2>
+Users can find out more about me and my work. They can navigate through the page and click on the subject of their choice to find out more. 
+![Screenshot of final page](/assets/images/Screenshot.png)
+
+<h2>Credits</h2>
+N/A
+
+<h2>License</h2>
+Please refer to the LICENSE in the repo
