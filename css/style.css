@@ -38,6 +38,7 @@ nav {
 
 .nav-links {
   background-color: #000762;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 10%;
   display: flex;
   margin: bottom;
