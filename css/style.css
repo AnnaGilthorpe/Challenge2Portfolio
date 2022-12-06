@@ -20,20 +20,26 @@ nav {
 
 .navbar {
   background-color: #000762;
+  padding: 5px;
   display: flex;
   height: 10%;
   justify-content: space-between;
-  align-items: center;
 }
+
 .logo {
-  display: inline-block;
+  display: flex;
   background-color: white;
+  height: 75px;
+  width: 100px;
+  margin: -5px;
+  
 }
 
 .nav-links {
   background-color: #000762;
   height: 10%;
   display: flex;
+  margin: bottom;
 }
 
 .nav-item a {
@@ -42,6 +48,7 @@ nav {
   background-color: #000762;
   padding: 10px 15px;
   color: white;
+  margin-bottom: 30px;
 }
 
 .nav-item:hover {
