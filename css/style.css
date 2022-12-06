@@ -1,5 +1,5 @@
 * {
-  background-color: white;
+  padding: 10px
 }
 
 body {
@@ -13,11 +13,13 @@ nav {
   width: 100%;
   position: fixed;
   background-color: #000762;
+  height: 10%;
   padding-left: 30px;
   padding-right: 10px;
 }
 
 .navbar {
+  background-color: #000762;
   display: flex;
   height: 10%;
   justify-content: space-between;
@@ -25,14 +27,18 @@ nav {
 }
 .logo {
   display: inline-block;
+  background-color: white;
 }
 
 .nav-links {
+  background-color: #000762;
+  height: 10%;
   display: flex;
 }
 
-.nav-item p {
+.nav-item a {
   display: inline-block;
+  height: 10%;
   background-color: #000762;
   padding: 10px 15px;
   color: white;
