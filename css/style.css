@@ -119,6 +119,7 @@ img {
 .page-section {
   color:black; 
   text-align: center;
+  text-justify: auto;
   border-bottom: 1px solid #000762;
   width: 90%;
   margin: 20px auto;
