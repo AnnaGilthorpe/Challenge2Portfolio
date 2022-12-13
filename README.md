@@ -30,7 +30,7 @@ N/A
 Users can find out more about me and my work. They can navigate through the page and click on the subject of their choice to find out more. 
 ![Screenshot of final page on desktop](/images/desktopscreenshot.png)
 ![Screenshot of final pages on 60em display](/images/60emscreenshot.png)
-![Screenshot of final pages on 50em display](/images50emscreenshot.png)
+![Screenshot of final pages on 50em display](/images/50emscreenshot.png)
 
 <h2>Credits</h2>
 N/A
